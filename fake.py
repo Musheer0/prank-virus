@@ -58,7 +58,7 @@ def display_full_screen_colors():
         canvas.pack(fill="both", expand=True)
         canvas.create_text(root.winfo_screenwidth() // 2, root.winfo_screenheight() // 2, text="HACKING", font=("Arial", 50), fill="white" if color != "white" else "black")
         root.update()
-        time.sleep(.001)
+        time.sleep(.1)
         root.destroy()
 
 # Execute the pranks in sequence
